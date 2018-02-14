@@ -1,6 +1,4 @@
 FROM node:8.9
-MAINTAINER Magnet.me
-
 EXPOSE 3000
 
 # Install dumb-init to rape any Chrome zombies

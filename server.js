@@ -18,8 +18,8 @@ console.log('Starting with options:', options);
 const server = prerender(options);
 
 server.use(log);
-server.use(healthcheck('_health'));
-server.use(forwardHeaders);
+server.use(healthcheck('healthz'));
+// server.use(forwardHeaders);
 server.use(prerender.removeScriptTags());
 server.use(removePrefetchTags);
 
