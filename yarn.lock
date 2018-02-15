@@ -1187,9 +1187,9 @@ pmx@^1.5:
     json-stringify-safe "^5.0"
     vxx "^1.2.0"
 
-prerender@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/prerender/-/prerender-5.2.0.tgz#32185a25997c4ce702ba7ae3028b26f2b1b1f315"
+prerender@5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/prerender/-/prerender-5.2.2.tgz#243b69aa2758ab3ffcbf834747f01b45a07c923d"
   dependencies:
     body-parser "~1.18.2"
     chrome-remote-interface "~0.24.2"
